@@ -23,12 +23,19 @@
 
 .accordionBody {
   background: #888585;
-  display: none;
-  padding: 0.5rem 1.5rem;
+  display: block;
+  height: 0;
+  padding: 0;
   text-align: center;
   transition: height 1s linear;
+  overflow: hidden;
+}
+
+.content {
+  padding: 0.5rem 1.5rem;
 }
 
 .active {
   display: block;
+  height: 100px;
 }
