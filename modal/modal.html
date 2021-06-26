@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="./modal.css" />
+    <script defer src="./modal.js"></script>
+  </head>
+  <body>
+    <button class="modalBtn" aria-controls="modal">Buka Modal</button>
+
+    <div class="modalWrapper">
+      <div class="modal" id="modal" role="navigation">
+        <div class="modalHeader">
+          <div class="modalTitle">Title</div>
+          <button class="modalCloseBtn">X</button>
+        </div>
+        <div class="modalBody">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, quisquam perferendis? Exercitationem voluptate aut
+          cupiditate quia minus, ipsam magnam dolorem.
+        </div>
+        <div class="modalFooter">
+          <button class="modalFooterBtn">Close</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
