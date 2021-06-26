@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .accordionWrapper {
   width: 500px;
 }
