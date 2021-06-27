@@ -11,20 +11,24 @@
   <body>
     <div class="container">
       <div class="carousel-wrapper">
-        <div class="carousel-item active">
+        <div data-item-index="0" class="carousel-item active">
           <h1>Test 1</h1>
         </div>
 
-        <div class="carousel-item">
+        <div data-item-index="1" class="carousel-item">
           <h1>Test 2</h1>
         </div>
 
-        <div class="carousel-item">
+        <div data-item-index="2" class="carousel-item">
           <h1>Test 3</h1>
         </div>
 
-        <button class="carousel-prev-button">&LeftArrow;</button>
-        <button class="carousel-next-button">&RightArrow;</button>
+        <button class="carousel-prev-button" aria-label="prev slide">
+          &LeftArrow;
+        </button>
+        <button class="carousel-next-button" aria-label="next slide">
+          &RightArrow;
+        </button>
       </div>
     </div>
   </body>
