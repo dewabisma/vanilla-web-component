@@ -25,7 +25,7 @@ main.container {
 }
 
 .collapse {
-  margin-top: 1rem;
+  margin: 1rem 0;
   height: 0px;
   overflow: hidden;
   transition: height 1s linear;
