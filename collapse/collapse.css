@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background: #7ace60;
+}
+
+p {
+  margin: 0;
+}
+
+main.container {
+  width: 500px;
+  padding: 1rem 1rem;
+  margin: 0 auto;
+  background: #fafafa;
+}
+
+.collapse {
+  margin-top: 1rem;
+  height: 0px;
+  overflow: hidden;
+  transition: height 1s linear;
+}
+
+.collapse .collapse-content {
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.collapse-btn {
+  background: #2fedc2;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.collapse-btn:hover {
+  background: #26cea7;
+}
+
+.collapse-btn:focus {
+  background: #26cea7;
+  outline: 5px solid #26cea77c;
+}
