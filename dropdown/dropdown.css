@@ -17,6 +17,7 @@ a {
 
 .dropdown {
   display: inline-block;
+  position: relative;
 }
 
 .dropdown-btn {
@@ -42,6 +43,8 @@ a {
 
 .dropdown-list {
   display: none;
+  position: absolute;
+  width: 100%;
   padding: 0.5rem 0;
   border: 1px solid #1f1f1f;
 }
